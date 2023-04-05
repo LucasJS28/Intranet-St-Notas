@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-image: url(fondo.png);
+}
+
+.logo img{
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    left: 380px;
+}
+header{
+    background-color:#01B574 ;
+    height: 115px;
+}
+.datos{
+    top: 20px;
+    color:white;
+    font-size: 13px;
+    position: absolute;
+    right: 700px;
+}
+
+.imgPersona img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 450px;
+    top: 30px;
+}
+nav button{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    width: 200px;
+    background-color: #007548;
+    height: 60px;
+    border: none;
+    border-right: 1px solid black;
+}
+
+nav button:hover{
+    background-color: #83B401;
+}
+nav{ 
+    padding-left: 450px;
+    background-color: #007548; 
+}
