@@ -31,11 +31,11 @@ header{
 nav button{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 400;
-    width: 200px;
+    width: auto;
     background-color: #007548;
-    height: 60px;
+    height: 50px;
     border: none;
     border-right: 1px solid black;
 }
@@ -44,6 +44,57 @@ nav button:hover{
     background-color: #83B401;
 }
 nav{ 
-    padding-left: 450px;
+    padding-left: 400px;
     background-color: #007548; 
+}
+
+section{
+    width: 950px;
+    padding-top: 20px;
+    height: 1000px;
+    margin: 20px 0px 0px 450px;
+}
+#periodo{
+    color:green;
+    font-weight: 1000;
+    font-size: 18px;
+}
+.Info{
+    width: 950px;
+    height: 100px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Notas{
+
+    width: 100%;
+    height: auto;
+}
+
+#Reporte{
+    color:#007548;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table,tr,td,th{
+    border: 1px solid rgb(219, 219, 219) ;
+    border-collapse: collapse;
+    background-color: rgb(245, 245, 245);
+    text-align: left;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+th{
+    font-weight: bold;
+}
+
+@media (max-width:1650px) {
+   .datos{
+    right: 200px;
+   }
 }
